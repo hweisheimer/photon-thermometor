@@ -7,4 +7,4 @@ A basic thermometer with display (in degrees F) running on the Particle Photon.
 
 Some places where this diverges from common examples:
 * My shift register latches on LOW, most others seem to latch on HIGH
-* Digit selection works by switching on a transistor connecting the common cathode to ground (so far, so good). I only had PNP transistors available, so the digit is switched on by writing LOW. Normally, these would be NPN transisters and switch on with HIGH.
+* Digit selection works by switching on a transistor connecting the common cathode to ground (so far, so good). I only had PNP transistors available, so the digit is switched on by writing LOW. Normally, these would be NPN transistors and switch on with HIGH.
